@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/base_background"
+    tools:context=".CourseActivity">
+
+
+    <ImageView
+        android:id="@+id/pag2"
+        android:layout_width="32dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/svge"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+    <TextView
+        android:id="@+id/beow"
+        android:layout_width="124dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="4dp"
+        android:text="Course Details"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <TextView
+        android:id="@+id/meow3"
+        android:layout_width="369dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="4dp"
+        android:text="How to make your design more artful and lyrical"
+        android:textSize="26dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.201"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.112" />
+
+    <ImageView
+        android:id="@+id/kalp"
+        android:layout_width="332dp"
+        android:layout_height="132dp"
+        android:layout_marginStart="16dp"
+        android:src="@drawable/circle"
+        app:layout_constraintBottom_toTopOf="@id/wew2"
+        app:layout_constraintStart_toStartOf="@id/meow3"
+        app:layout_constraintTop_toBottomOf="@id/meow3"
+        app:layout_constraintVertical_bias="0.486"
+        android:visibility="invisible"></ImageView>
+    <VideoView
+        android:id="@+id/kalpe"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="16dp"
+        android:src="@drawable/circle"
+        app:layout_constraintBottom_toTopOf="@id/wew2"
+        app:layout_constraintStart_toStartOf="@id/meow3"
+        app:layout_constraintTop_toBottomOf="@id/meow3"
+        android:visibility="invisible"
+        app:layout_constraintVertical_bias="0.486"></VideoView>
+
+    <TextView
+        android:id="@+id/wew2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="36dp"
+
+        android:text="about this course:"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        app:layout_constraintStart_toStartOf="@id/meow3"
+        app:layout_constraintTop_toBottomOf="@id/kalp" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/wew3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="weweweewewewe"
+        app:layout_constraintStart_toStartOf="@id/wew2"
+        app:layout_constraintTop_toBottomOf="@id/wew2" />
+
+    <View
+        android:id="@+id/keek"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/line"
+        app:layout_constraintStart_toStartOf="@id/wew3"
+        app:layout_constraintTop_toBottomOf="@id/wew3"></View>
+
+    <TextView
+        android:id="@+id/wew4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="12dp"
+
+        android:text="pre-requirements:"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        app:layout_constraintStart_toStartOf="@id/meow3"
+        app:layout_constraintTop_toBottomOf="@id/keek" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/wew5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="weweweewewewe"
+        app:layout_constraintStart_toStartOf="@id/wew4"
+        app:layout_constraintTop_toBottomOf="@id/wew4" />
+
+    <View
+        android:id="@+id/keeek"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/line"
+        app:layout_constraintStart_toStartOf="@id/wew5"
+        app:layout_constraintTop_toBottomOf="@id/wew5"></View>
+
+    <TextView
+        android:id="@+id/wew6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="12dp"
+
+        android:text="Duration:"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        app:layout_constraintStart_toStartOf="@id/meow3"
+        app:layout_constraintTop_toBottomOf="@id/keeek" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/wew7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="weweweewewewe"
+        app:layout_constraintStart_toStartOf="@id/wew6"
+        app:layout_constraintTop_toBottomOf="@id/wew6" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/line"
+        app:layout_constraintStart_toStartOf="@id/wew7"
+        app:layout_constraintTop_toBottomOf="@id/wew7"></View>
+
+    <FrameLayout
+        android:layout_width="303dp"
+        android:layout_height="272dp"
+        android:background="@drawable/base_round"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        android:visibility="gone">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+            >
+
+            <ImageView
+                android:id="@+id/nocap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/logo"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.3"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Course added"
+                android:textSize="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/nocap"></TextView>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/base_round2"
+                android:text="close"
+                android:textColor="#52B6DF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+
+                app:layout_constraintStart_toStartOf="parent"
+
+                ></androidx.appcompat.widget.AppCompatButton>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="312dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/buttonsuperior"
+        android:text="Add to my Course"
+        android:textColor="@color/white"
+        android:textSize="19dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"></androidx.appcompat.widget.AppCompatButton>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
